@@ -1,0 +1,126 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #e5dccb;
+}
+
+nav {
+  margin-top: 2em;
+  margin-left: 2em;
+  display: flex;
+  flex-direction: row;
+  gap: 18em;
+}
+
+header .title {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  display: flex;
+  justify-content: center;
+  text-transform: uppercase;
+  margin-top: 1em;
+  font-size: 40px;
+}
+
+header p {
+  font-family: "Segoe UI", Tahoma, Verdana, sans-serif;
+  display: flex;
+  margin-top: 1em;
+  text-decoration: underline;
+  justify-content: center;
+}
+
+header img {
+  max-width: 100%;
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
+
+section h2 {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-weight: 500;
+  display: flex;
+  justify-content: center;
+  margin-top: 4em;
+  font-size: 16px;
+}
+
+.horizontal-scroll {
+  margin-top: 2em;
+  max-width: 100%;
+  overflow-x: auto; /* Enables horizontal scrolling */
+  white-space: nowrap; /* Prevents wrapping of child elements */
+  width: 100%; /* Full viewport width */
+  height: 16em;
+  background-color: #e5dccb;
+}
+
+.scroll-container {
+  display: inline-flex; /* Creates a horizontal layout for the images */
+  gap: 20px; /* Space between images */
+}
+
+.scroll-container img {
+  width: 100%; /* Adjust the width of the images */
+
+  border-radius: 10px; /* Adds rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow */
+  transition: transform 0.3s ease; /* Animation on hover */
+}
+
+.scroll-container img:hover {
+  transform: scale(1.1); /* Slight zoom effect on hover */
+}
+
+.horizontal-scroll::-webkit-scrollbar {
+  height: 2px;
+}
+
+.horizontal-scroll::-webkit-scrollbar-thumb {
+  background-color: #e5dccb;
+  border-radius: 4px;
+}
+
+.horizontal-scroll::-webkit-scrollbar-thumb:hover {
+  background-color: #e5dccb;
+}
+
+.abUs {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-weight: 500;
+  margin-bottom: 2em;
+}
+
+.AboutUs img {
+  max-width: 100%;
+  margin-bottom: 3em;
+}
+
+.AboutUs p {
+  margin-bottom: 4em;
+  display: flex;
+  justify-self: center;
+  font-size: 13px;
+  align-items: left;
+  max-width: 326px;
+}
+
+footer {
+  background-color: #b4ac9c;
+  padding-top: 2em;
+}
+
+footer .info {
+  margin-bottom: 50px;
+  font-size: 13px;
+  max-width: 100px;
+  margin-left: 1em;
+}
+
+footer .copy {
+  margin-left: 1em;
+  font-size: 8px;
+  padding-bottom: 1em;
+}
