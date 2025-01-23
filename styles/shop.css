@@ -12,7 +12,7 @@ nav {
   margin-left: 2em;
   display: flex;
   flex-direction: row;
-  gap: 21em;
+  gap: 23em;
 }
 
 header .title {
@@ -33,7 +33,7 @@ header p {
 }
 
 header img {
-  max-width: 100%;
+  width: 100%;
   margin-top: 2em;
   margin-bottom: 2em;
 }
@@ -94,7 +94,7 @@ section h2 {
 }
 
 .AboutUs img {
-  max-width: 100%;
+  width: 100%;
   margin-bottom: 3em;
 }
 
